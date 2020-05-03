@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.button-donate .btn{
+    border:1px solid #427900;
+    border-radius: none;
+    font-size: 11px;
+    color:#427900;
+}
+.logo img{
+    width: 200px;
+}
+.menu ul li{
+    border-radius: 30px;
+    padding: 0 15px;
+}
+
+.menu a:hover li{
+    background-color: blue;
+}
+.text-theme-color{
+         color: #427900 !important;
+}
+.intro{
+    align-items: center
+}
+.introduction .sprator{
+    width: 70px;
+    height: 2px;
+    background-color: #427900;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.introduction .sprator-left{
+    width: 70px;
+    height: 2px;
+    background-color: #427900;
+    margin-top: 15px;
+   
+}
+.counter{
+    background-color: #316DC3 !important;
+}
+
+.counter h2{
+    font-size: 42;
+}
+.font-weight-500{
+    font-weight: 500;
+}
+.counter span{
+    color: color: rgb(0, 255, 0);
+}
+.doing h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+}
+.font-color-blu{
+    color: #316DC3;
+
+
+}
+.box-shadow-10{
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.sprator-mission{
+    width:70px;
+    height: 3px;
+    background-color: #427900 ;
+    display: block;
+}
+.border-px-1{
+    border: 1px solid #eeeeee;
+}
+.mission marquee{
+    height: 200px;
+}
+.garllery li img{
+    width: 200px;
+    height: 200px;
+}
+.garllery li{
+    display: inline-block;
+    padding-left:0 !important;
+    margin-left:0 !important;
+}
+
+.footer li,p{
+    color:#bbb;
+    
+}
+.footer li{
+    font-size: 12px;
+}
+
+.footer-icon a{
+    background-color: #316DC3 !important;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px !important;
+   
+
+    
+   
+    color: white;
+}
+.footer-icon li{
+    display: inline-block;
+    padding-left: 5px !important;
+    margin-left: 2px !important;
+}
+.introduction p{
+    text-align: justify;
+}
+
+.banner{
+    width: 100%;
+    height: 100;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+       background-color:blue;
+    }
+}
